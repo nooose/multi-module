@@ -32,3 +32,6 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+tasks.bootJar { enabled = false } // 기본값 true
+tasks.jar { enabled = true }
